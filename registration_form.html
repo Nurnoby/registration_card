@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">    
+    <!-- custom css  -->
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>Student Registration</title>
+</head>
+<body>
+    <section class="registration-form">
+        <div class="form-container">           
+            <h2 class="form-heading">Registration</h2>
+            <form action="" class="reg-form">
+                <div class="fullname form-field">
+                    <label for="fname">Full Name</label><br>
+                    <input type="text" id="fname" placeholder="Enter your name">
+                </div>                
+                <div class="username form-field">
+                    <label for="uname">Username</label><br>
+                    <input type="text" id="uname" placeholder="Enter your username">
+                </div>                
+                <div class="email form-field">
+                    <label for="emailaddress">Email Address</label><br>
+                    <input type="email" id="emailaddress" placeholder="Enter your email">
+                </div>                
+                <div class="phone form-field">
+                    <label for="phonenumber">Phone Number</label><br>
+                    <input type="tel" id="phonenumber" placeholder="Enter your phone">
+                </div>                
+                <div class="passWord form-field">
+                    <label for="password">Password</label><br>
+                    <input type="password" id="password" placeholder="Enter your password">
+                </div>                
+                <div class="CpassWord form-field">
+                    <label for="cpassword">Confirm Password</label><br>
+                    <input type="password" id="cpassword" placeholder="confirm password">
+                </div>  
+                <div class="gender">
+                    <p>Gender</p>
+                    <div class="radio-container">
+                        <input type="radio" id="imale" value="Male">
+                        <label for="imale">Make</label>
+                        <input type="radio" id="ifemale" value="Female">
+                        <label for="ifemale">Female</label>
+                        <input type="radio" id="iother" value="Other">
+                        <label for="iother">Other</label>
+                    </div>
+                </div>  
+                <div class="submit-btn">
+                    <button type="submit" class="cancelbtn">Cancel</button>
+                    <button type="submit">Submit</button>                   
+                </div> 
+
+            </form>                    
+        </div>
+    </section>    
+</body>
+</html>
